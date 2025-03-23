@@ -9,6 +9,11 @@ import PageProducts from "~/components/pages/PageProducts/PageProducts";
 import { Typography } from "@mui/material";
 
 function App() {
+  localStorage.setItem(
+    "authorization_token",
+    "bmF0YW5jaGlrOlRFU1RfUEFTU1dPUkQ="
+  );
+
   return (
     <MainLayout>
       <Routes>
